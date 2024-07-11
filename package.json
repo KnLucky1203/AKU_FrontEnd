@@ -59,7 +59,7 @@
     "@types/react-dom": "17.0.14"
   },
   "scripts": {
-    "start": "PORT=3014 react-scripts start",
+    "start": "PORT=3014 react-scripts --openssl-legacy-provider start",
     "start-home": "yarn lingui:prepare && PORT=3014 env-cmd -e development-home react-scripts start",
     "start-app": "yarn lingui:prepare && PORT=3014 env-cmd -e development-app react-scripts start",
     "start-win": "set PORT=3014&react-scripts start",
